@@ -27,3 +27,13 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+img{
+  width:150px;
+}
+
+.container{
+  display: grid;
+  
+  grid-template-columns: repeat(3,1fr);
+ 
+}
